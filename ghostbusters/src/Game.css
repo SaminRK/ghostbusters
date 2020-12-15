@@ -1,0 +1,38 @@
+.gameGrid {
+    padding: 10px 10px 10px 10px;
+}
+
+.centraliser {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.control-buttons {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button {
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.boxes {
+    height: 50px;
+    width: 75px;
+    font-size: 10px;
+    color: white;
+    background: black;
+}
+
+.bustButtonRed {
+    background: red;
+}
+
+.credit {
+    font-size: small;
+}

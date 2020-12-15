@@ -393,7 +393,7 @@ class Game extends React.Component {
 					<div className="centraliser">{`POSITION: (${this.state.pos[0]}, ${this.state.pos[1]})`}</div>
 					<div className="centraliser">{`BUSTS LEFT X ${this.state.bustsLeft}`}</div>
 					<div className="centraliser credit">
-						Source: The game has been taken from the course CS188:Intro to AI at UC Berkeley &nbsp;
+						Source: The game has been taken from the course CS188:Intro to AI by UC Berkeley &nbsp;
 						<a href="https://inst.eecs.berkeley.edu/~cs188/">
 						visit
 						</a>

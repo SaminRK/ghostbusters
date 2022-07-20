@@ -75,7 +75,7 @@ class Game extends React.Component {
 		return grid;
 	}
 
-	getBgColor(value) {
+	getBoxBgColor(value) {
 		var red, green, blue;
 		const n = this.state.rows;
 		const m = this.state.columns;
@@ -111,11 +111,11 @@ class Game extends React.Component {
 		const n = this.state.rows;
 		const m = this.state.columns;
 
-		const mand = Math.abs(selCol - posCol) + Math.abs(selRow - posRow);
+		const mann_dist = Math.abs(selCol - posCol) + Math.abs(selRow - posRow);
 		var res = "g";
-		if (mand <= 1) res = "r";
-		else if (mand <= 2) res = "o";
-		else if (mand <= 4) res = "y";
+		if (mann_dist <= 1) res = "r";
+		else if (mann_dist <= 2) res = "o";
+		else if (mann_dist <= 4) res = "y";
 
 		var newColorGrid = this.state.colorGrid;
 		newColorGrid[selRow][selCol] = res;
@@ -321,7 +321,7 @@ class Game extends React.Component {
 								{rows.map((value, column) => {
 									var buttonText = value.toFixed(3);
 									var buttonStyle = {
-										background: this.getBgColor(
+										background: this.getBoxBgColor(
 											this.state.grid[row][column]
 										),
 									};
@@ -393,7 +393,7 @@ class Game extends React.Component {
 					<div className="centraliser">{`POSITION: (${this.state.pos[0]}, ${this.state.pos[1]})`}</div>
 					<div className="centraliser">{`BUSTS LEFT X ${this.state.bustsLeft}`}</div>
 					<div className="centraliser credit">
-						Source: The game has been taken from the course CS188:Intro to AI by UC Berkeley &nbsp;
+						The game is a web-version of the ghostbusters game from the course CS188:Intro to AI at UC Berkeley&nbsp;
 						<a href="https://inst.eecs.berkeley.edu/~cs188/">
 						visit
 						</a>

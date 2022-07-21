@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ghostbusters/static/css/main.61a6398b.chunk.css",
-    "main.js": "/ghostbusters/static/js/main.b07572bc.chunk.js",
-    "main.js.map": "/ghostbusters/static/js/main.b07572bc.chunk.js.map",
+    "main.js": "/ghostbusters/static/js/main.4eb943a6.chunk.js",
+    "main.js.map": "/ghostbusters/static/js/main.4eb943a6.chunk.js.map",
     "runtime-main.js": "/ghostbusters/static/js/runtime-main.f44f0405.js",
     "runtime-main.js.map": "/ghostbusters/static/js/runtime-main.f44f0405.js.map",
     "static/js/2.779bb94f.chunk.js": "/ghostbusters/static/js/2.779bb94f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f44f0405.js",
     "static/js/2.779bb94f.chunk.js",
     "static/css/main.61a6398b.chunk.css",
-    "static/js/main.b07572bc.chunk.js"
+    "static/js/main.4eb943a6.chunk.js"
   ]
 }

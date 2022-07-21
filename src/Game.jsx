@@ -393,9 +393,9 @@ class Game extends React.Component {
 					<div className="centraliser">{`POSITION: (${this.state.pos[0]}, ${this.state.pos[1]})`}</div>
 					<div className="centraliser">{`BUSTS LEFT X ${this.state.bustsLeft}`}</div>
 					<div className="centraliser credit">
-						The game is a web-version of the ghostbusters game from the course CS188:Intro to AI at UC Berkeley&nbsp;
+						This game is a web-version of the ghostbusters game from the course CS188:Intro to AI at UC Berkeley&nbsp;
 						<a href="https://inst.eecs.berkeley.edu/~cs188/">
-						visit
+						visit to know more
 						</a>
 					</div>
 				</div>
